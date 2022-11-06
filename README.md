@@ -1,2 +1,2 @@
-# Pytorch Deep Learning
+# Pytorch for Deep Learning
 My Pytorch Notes
