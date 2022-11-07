@@ -4,13 +4,13 @@
  * Intro to Tensors
  * Tensor Datatypes
  * Tensor Operations (Addition, Subtraction, Multiplication, Division)
- * Tensor Errors (Shape Error, Device Error, NumPy Error, )
+ * Tensor Errors (Shape Error, DataType Error, Device Error, NumPy Error)
  * Tensor Aggregation (aRange, Min, Max, Mean, Sum, etc)
  * Tensor Shaping, Stacking, Squeezing and Unsqueezing
  * Tensor Indexing
  
  ## [2. PyTorch Workflow](https://github.com/KevinGastelum/PytorchDeepLearning/blob/main/2_PytorchWorkflow.ipynb)
- * Data Prepping and Loading
+ * Prepping and Loading data
  * Building our Model
  * Training Our Model
  * Making Predictions
@@ -20,19 +20,23 @@
  * Training Deep dive (Forward Pass, Loss Function, Optimizer, Training and Test loop)
  
  ## [3. Neural Network Classification](https://github.com/KevinGastelum/PytorchDeepLearning/blob/main/3_PytorchClassification.ipynb)
- * Preparing Classification Data (make_circles Dataset)
- * Turning Data into Tensors, creating Train/Test Split
- * Building Classification Model
- * Setting up **Loss Function and Optimizer**
+ * Prepping and Loading Classification data (make_circles Dataset)
+     * Turn Data into Tensors, Create Train/Test Split
+ * Building Classification Model 
+     * nnModule, Hidden Layers, Hidden Neurons, forward pass
+ * **loss function (BCELoss/BCEWithLogitsLoss) and Optimizer (SGD/Adam)** 
  * Training the Model
- * Using **Sigmoid Activation** to convert raw logits into Predictions
- * Building Training and Test loop
+ * Using **activation function (Sigmoid)** to convert raw logits into Predictions
+ * Build Train and Test loop
  * Making Predictions to evaluate our current Model
- * Improving our Model - **Hyperparameter Tuning** (Hidden Layers, Hidden Units, learning rate)
- * Building a Model with non-linearity
- * Non-Linear Activation Functions
- * Building a Multi-class Model
- * Multi-class Model loss function and optimizer 
- * Multi-class Model Train/Test Loop
- * Multi-class Model Predictions
+ * Improving our Model - **Hyperparameter Tuning** (Hidden Layers, Hidden Neurons, Activation Function, learning rate, loss function)
+ ### Part 2 Multi-Class Neural Network 
+ * Prepping and Loading Multi-Class Classification data (make_blobs Dataset)
+     * Turn Data into Tensors, Create Train/Test split
+ * Building a Multi-Class Classification Model
+     * nnModule, Hidden Layers, Hidden Neurons, Forward pass
+ * **loss function(CrossEntropyLoss) and optimizer(SGD)** for Multi-class Model
+ * Using **activation function (softmax)** to convert raw logits into Predictions
+ * Build Train and Test Loop for Multi-class model 
+ * Multi-class model Predictions
  
