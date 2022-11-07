@@ -30,7 +30,7 @@
  * Build Train and Test loop
  * Making Predictions to evaluate our current Model
  * Improving our Model - **Hyperparameter Tuning** (Hidden Layers, Hidden Neurons, Activation Function, learning rate, loss function)
- ### Part 2 Multi-Class Neural Network 
+ ### Neural Network Part 2 Multi-Class Classification
  * Prepping and Loading Multi-Class Classification data (make_blobs Dataset)
      * Turn Data into Tensors, Create Train/Test split
  * Building a Multi-Class Classification Model
