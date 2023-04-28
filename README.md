@@ -1,6 +1,6 @@
 # Pytorch for Deep Learning
 
-## [1. The Fundamentals](https://github.com/KevinGastelum/PytorchDeepLearning/blob/main/1_PytorchFundamentals.ipynb)
+## [1. The Fundamentals [Click to View Code]](https://github.com/KevinGastelum/PytorchDeepLearning/blob/main/1_PytorchFundamentals.ipynb)
  * Intro to Tensors
  * Tensor Datatypes
  * Tensor Operations (Addition, Subtraction, Multiplication, Division)
@@ -9,7 +9,7 @@
  * Tensor Shaping, Stacking, Squeezing and Unsqueezing
  * Tensor Indexing
  
- ## [2. PyTorch Workflow](https://github.com/KevinGastelum/PytorchDeepLearning/blob/main/2_PytorchWorkflow.ipynb)
+ ## [2. PyTorch Workflow [Click to View Code]](https://github.com/KevinGastelum/PytorchDeepLearning/blob/main/2_PytorchWorkflow.ipynb)
  * Prepping and Loading data
  * Building our Model
  * Training Our Model
@@ -19,7 +19,7 @@
  * Building a Pytorch Linear Model
  * Training Deep dive (Forward Pass, Loss Function, Optimizer, Training and Test loop)
  
- ## [3. Neural Network Classification](https://github.com/KevinGastelum/PytorchDeepLearning/blob/main/3_PytorchClassification.ipynb)
+ ## [3. Neural Network Classification [Click to View Code]](https://github.com/KevinGastelum/PytorchDeepLearning/blob/main/3_PytorchClassification.ipynb)
  * Prepping and Loading Classification data (make_circles Dataset)
      * Turn Data into Tensors, Create Train/Test Split
  * Building Classification Model 
